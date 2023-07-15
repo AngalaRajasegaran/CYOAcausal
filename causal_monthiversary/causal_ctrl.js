@@ -4,7 +4,7 @@
 **********************************/
 
 //GLOBAL VARIABLES
-var mycounterbalance = Math.floor(Math.random() * 15) + 1; //have 15 subjects' story version left to collect causal rating on 
+var mycounterbalance = Math.floor(Math.random() * 14) + 1; //have 14 subjects' story version left to collect causal rating on 
 
 // set route_vector and choice_vector variables
 //if (mycounterbalance == 1) {
@@ -26,34 +26,36 @@ if (mycounterbalance == 1) {
 } else if (mycounterbalance == 5) {
   var route_subject= "sub25_4025"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_cNjF8hkbuGRZFae' 
-} else if (mycounterbalance == 6) {
-  var route_subject= "sub37_4037"
-  var link = 'https://jh.qualtrics.com/jfe/form/SV_elKTMmDbx54LHYG' 
-} else if (mycounterbalance == 7) {
+} 
+  //else if (mycounterbalance == 6) {
+  //var route_subject= "sub37_4037"
+  //var link = 'https://jh.qualtrics.com/jfe/form/SV_elKTMmDbx54LHYG' 
+//} 
+  else if (mycounterbalance == 6) {
   var route_subject= "sub40_4040"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_9FbZiWdV03lBfAa' 
-} else if (mycounterbalance == 8) {
+} else if (mycounterbalance == 7) {
   var route_subject= "sub50_4050"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_8dE4yEvkIApNE8K' 
-} else if (mycounterbalance == 9) {
+} else if (mycounterbalance == 8) {
   var route_subject= "sub71_4071"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_em5EiZsHWrXkTQy' 
-} else if (mycounterbalance == 10) {
+} else if (mycounterbalance == 9) {
   var route_subject= "sub79_4079"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_4TP3B7LzEhJlo1w' 
-} else if (mycounterbalance == 11) {
+} else if (mycounterbalance == 10) {
   var route_subject= "sub80_4080"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_bf659ec6DXBVFrM' 
-} else if (mycounterbalance == 12) {
+} else if (mycounterbalance == 11) {
   var route_subject= "sub81_4081"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_0cBENnmw64LSRls' 
-} else if (mycounterbalance == 13) {
+} else if (mycounterbalance == 12) {
   var route_subject= "sub90_4090"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_eQj6K6SqXvixQTI' 
-} else if (mycounterbalance == 14) {
+} else if (mycounterbalance == 13) {
   var route_subject= "sub94_4094"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_6u0oFxKFKQ78RQG' 
-} else if (mycounterbalance == 15) {
+} else if (mycounterbalance == 14) {
   var route_subject= "sub95_4095"
   var link = 'https://jh.qualtrics.com/jfe/form/SV_e8V6rOaB5lTo5CK' 
 };
